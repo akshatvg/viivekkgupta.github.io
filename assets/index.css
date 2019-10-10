@@ -11,8 +11,7 @@
 
 .vg {
     border-radius: 30px;
-    height:260px;
-    min-height: 250px;
+    max-height: 220px;
     width: auto;
 }
 
