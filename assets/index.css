@@ -1,0 +1,22 @@
+.section-1 {
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.main-img {
+    margin-top: 2vh;
+    text-align: center;
+}
+
+.vg {
+    border-radius: 30px;
+    height:260px;
+    min-height: 250px;
+    width: auto;
+}
+
+.quote {
+    color: rgba(245, 245, 245, 0.788);
+    margin-top: 3vh;
+    font-size: 20px;
