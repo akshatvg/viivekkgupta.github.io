@@ -10,16 +10,25 @@
 }
 
 .vg {
-    border-radius: 30px;
-    max-height: 260px;
-    height: auto;
-    width: auto;
-    padding: 10px;
+    border-radius: 1px;
+    padding: 15px;
+    box-shadow: 0px 0px 1px 1px rgba(128, 128, 128, 0.356);
 }
 
 .quote {
     color: rgba(245, 245, 245, 0.788);
     margin-top: 3vh;
     font-size: 20px;
+    font-style: italic;
     padding: 15px;
+    text-align: center;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.motivation{
+    color: grey;
 }

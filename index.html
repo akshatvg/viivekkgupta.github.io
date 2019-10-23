@@ -2,9 +2,12 @@
 <html lang="en">
 
 <head>
+    <!--Meta tags for SEO-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Linking Favicon, CSS, BootStrap, AJAX-->
     <link rel="icon" type="icon" href="assets/img/favicon.png">
     <link rel="stylesheet" type="text/css" href="assets/index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -19,36 +22,39 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"
         defer></script>
+
+    <!--Title-->
     <title>Viivekk Gupta</title>
 </head>
 
 <body>
 
     <header>
+        <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark animate fadeInLeft">
+            <a class="navbar-brand" href="#">Viivekk Gupta</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
                 aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="#">Viivekk Gupta</a>
+            <div class="collapse navbar-collapse ml-auto" id="navbarTogglerDemo01">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
+                    <li class="nav-item text-right">
                         <a class="nav-link" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item text-right">
                         <a class="nav-link" href="#">About Me</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item text-right">
                         <a class="nav-link" href="#">India Blogs</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item text-right">
                         <a class="nav-link" href="#">International Blogs</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item text-right">
                         <a class="nav-link" href="#">Achievements</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item text-right">
                         <a class="nav-link" href="#">More</a>
                     </li>
                 </ul>
@@ -56,16 +62,58 @@
         </nav>
     </header>
 
+    <!--Section 1 : Picture and Quote-->
     <section class="section-1">
-        <div class="main-img">
-            <img src="assets/img/Viivekk_Gupta_Travel_Educator.png" alt="Viivekk Gupta" class="img-responsive vg" />
-            <h1 class="quote">
-                <q>
-                    Leadership Is Not About Being The Best,
-                    <br>
-                    It's About Making Everyone Better.
-                </q>
-            </h1>
+        <div class="container-fluid">
+            <div class="main-img">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="assets/img/Viivekk_Gupta_Travel_Educator.png" alt="Viivekk Gupta"
+                            class="vg responsive" width="500" height="350" />
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <h1 class="quote">
+                    <q>Leadership Is Not About Being The Best,
+                        It's About Making Everyone Better.</q>
+                </h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h5 class="text-center mt-5 motivation">
+                        DARE - DREAM | ACHIEVE | RETAIN | EDUCATE
+                    </h5>
+                </div>
+            </div>
+            <div class="row mt-4 justify-content-center">
+                <div class="col-4">
+                    <h5 class="text-center">A Travel Educator</h5>
+                    <p class="mt-1 text-center"><q><i>Travel is like knowledge. The more you see, the more you know you have
+                                to
+                                see.</i></q></p>
+                    <p class="mt-2 text-center">Go getter attitude for all kinds of marketing and sales. Practical
+                        experience to develop and
+                        expand in the field of tourism in India and over the world. Travel across the globe analused the
+                        demand and supply in various markets.</p>
+                    <p class="mt-2 text-center">Aim to make India a global leader in Worldwide Tourism- building a
+                        Google on Indian Tourism.</p>
+                </div>
+                <div class="col-4">
+                    <h5 class="text-center">What is Life?</h5>
+                    <p class="mt-1 text-center">Sometimes you face difficulties not becuase you are doing something wrong,
+                        but because you're doing something right.</p>
+                    <p class="mt-2 text-center"><i>~ Viivekk Gupta</i></p>
+                </div>
+                <div class="col-4">
+                    <h5 class="text-center">Get Inspired !</h5>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -75,7 +123,6 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'UA-120140018-4');
     </script>
 </body>
