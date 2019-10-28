@@ -127,3 +127,16 @@ footer img:focus {
 .proj-txt a:hover {
     color: white;
 }
+
+.main-blog-area {
+    color: whitesmoke;
+    background-color: black;
+    padding-bottom: 4vh;
+    padding-top: 2vh;
+}
+
+.table {
+    box-shadow: 0px 1px 5px rgba(255, 255, 255, 0.685);
+    background-color: whitesmoke;
+    border-radius: 2px;
+}
