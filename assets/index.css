@@ -11,14 +11,15 @@
 
 .vg {
     border-radius: 1px;
-    padding: 15px;
-    box-shadow: 0px 0px 1px 1px rgba(128, 128, 128, 0.356);
+    padding: 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px 5px rgba(128, 128, 128, 0.123);
 }
 
 .quote {
     color: rgba(245, 245, 245, 0.788);
     margin-top: 3vh;
-    font-size: 20px;
+    font-size: 2vh;
     font-style: italic;
     padding: 15px;
     text-align: center;
@@ -29,6 +30,27 @@
     height: auto;
 }
 
-.motivation{
-    color: grey;
+.motivation {
+    color: rgb(95, 93, 93);
+}
+
+.section-2 {
+    display: block;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 7vh;
+    padding-top: 2vh;
+}
+
+.section-2::after {
+    content: "";
+    background: url("../assets/img/intro-bg.jpg");
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
 }
