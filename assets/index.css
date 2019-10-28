@@ -1,3 +1,9 @@
+html {
+    scroll-behavior: smooth;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
 .section-1 {
     background-color: black;
     padding-top: 30px;
@@ -58,13 +64,36 @@
     background-size: cover;
 }
 
-footer{
+footer {
     background-color: black;
-    padding-top:20px;
+    padding-top: 20px;
     padding-bottom: 10px;
+    bottom: 0;
 }
 
-footer img:hover, footer img:focus{
+footer img:hover,
+footer img:focus {
     opacity: 0.5;
     outline: none;
-  }
+}
+
+.copyright {
+    color: rgba(245, 245, 245, 0.616);
+}
+
+.section-3 {
+    padding-bottom: 3vh;
+    padding-top: 2vh;
+    background-color: black;
+}
+
+.expertise {
+    color: rgba(245, 245, 245, 0.76);
+    line-height: 2;
+    letter-spacing: 1px;
+    padding: 20px;
+}
+
+.exp-heading {
+    color: whitesmoke;
+}
