@@ -31,7 +31,7 @@
 }
 
 .motivation {
-    color: rgb(95, 93, 93);
+    color: rgba(0, 0, 0, 0.473);
 }
 
 .section-2 {
@@ -41,16 +41,30 @@
     background-size: cover;
     padding-bottom: 7vh;
     padding-top: 2vh;
+    color: black;
 }
 
 .section-2::after {
     content: "";
-    background: url("../assets/img/intro-bg.jpg");
-    opacity: 0.5;
+    background: url("../assets/img/intro-bg.jpeg");
+    opacity: 0.7;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
     z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+footer{
+    background-color: black;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+
+footer img:hover, footer img:focus{
+    opacity: 0.5;
+    outline: none;
+  }
