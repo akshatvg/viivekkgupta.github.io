@@ -5,19 +5,15 @@
 This repository is made by Akshat Gupta to develop, manage and host Viivekk Gupta's Personal Website.
 
 <p align="center">
-<a href="https://timemator.akshatvg.com">
+<a href="https://viivekkgupta.akshatvg.com">
 <img src="https://github.com/akshatvg/viivekkgupta.github.io/blob/master/images/Viivekk_Gupta_Travel_Educator.png" alt="Viivekk Gupta"/>
 </a>
 </p>
 
-![Generic badge](https://img.shields.io/badge/timemator-clone-orange) 
+![Generic badge](https://img.shields.io/badge/Viivekk-Gupta-orange) 
 
 #### Link for [demo](https://viivekkgupta.akshatvg.com) 
 [![Generic badge](https://img.shields.io/badge/view-demo-orange)](https://viivekkgupta.akshatvg.com)
-
-## Useful Links
-
-- [Actual Website](https://timemator.com)
 
 ## Requirements
 
